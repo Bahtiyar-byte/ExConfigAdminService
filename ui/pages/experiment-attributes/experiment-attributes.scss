@@ -1,0 +1,89 @@
+.flexible-container {
+  background-color: #ededed;
+  border: 0.1rem solid #004b9b;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.select-box,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea {
+  margin-bottom: 1.5rem
+}
+
+.tree-padding {
+  --spacing: 1.5rem;
+  --radius: 10px;
+  padding-left: 1rem;
+}
+
+.tree-padding .line {
+  display: block;
+  position: relative;
+  padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
+  margin-top: 1rem;
+}
+
+.tree-padding .hLine {
+  margin-left: calc(var(--radius) - var(--spacing));
+  padding-left: 1.5rem;
+}
+
+.tree-vertical-lines .hLine .line {
+  border-left: 2px solid var(--dark-grey);
+}
+
+.tree-vertical-lines .hLine .line:last-child {
+  border-color: transparent;
+}
+
+.tree-horizontal-lines .hLine .line::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: calc(var(--spacing) / -.2);
+  left: -2px;
+  width: calc(var(--spacing) + 5px);
+  height: calc(var(--spacing) + 110px);
+  border: solid var(--dark-grey);
+  border-width: 0 0 2px 2px;
+}
+
+.tree-summaries .summary {
+  display: block;
+  cursor: pointer;
+}
+
+.tree-summaries .summary::marker,
+.tree-summaries .summary::-webkit-details-marker {
+  display: none;
+}
+
+.tree-summaries .summary:focus {
+  outline: none;
+}
+
+.tree-summaries .summary:focus-visible {
+  outline: 1px dotted #000;
+}
+
+.tree-buttons .summary::before {
+  z-index: 1;
+  background: var(--accent) url('expand-collapse.svg') 0 0;
+}
+
+.tree-buttons .details[open]>.summary::before {
+  background-position: calc(-2 * var(--radius)) 0;
+}
+
+:root {
+  --width: 36;
+  --rounding: 4px;
+  --accent: rgb(119, 129, 119);
+  --dark-grey: #2a1795;
+  --grey: #eee;
+  --light-grey: #f8f8f8;
+}

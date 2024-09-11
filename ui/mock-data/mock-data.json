@@ -1,0 +1,582 @@
+[
+  {
+    "id": "1",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-04-05T13:00:00Z",
+    "endDatetime": "2024-07-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Inactive"
+  },
+  {
+    "id": "2",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "3",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-09-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Not Started Yet"
+  },
+  {
+    "id": "4",
+    "experimentName": "Button Colors",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-09-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:31:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Not Started Yet"
+  },
+  {
+    "id": "5",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-09-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Not Started Yet"
+  },
+  {
+    "id": "6",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2023-09-05T13:00:00Z",
+    "endDatetime": "2023-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Inactive"
+  },
+  {
+    "id": "7",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2023-09-05T13:00:00Z",
+    "endDatetime": "2023-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Inactive"
+  },
+  {
+    "id": "8",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-06-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "9",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-01-05T13:00:00Z",
+    "endDatetime": "2024-02-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Inactive"
+  },
+  {
+    "id": "10",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-03-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "11",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-06-05T13:00:00Z",
+    "endDatetime": "2024-12-10T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "12",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-05-05T13:00:00Z",
+    "endDatetime": "2024-10-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "13",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "14",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "15",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Inactive"
+  },
+  {
+    "id": "16",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-10-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Not Started Yet"
+  },
+  {
+    "id": "17",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-05-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "18",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "19",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  },
+  {
+    "id": "20",
+    "experimentName": "Paid in Full Discount",
+    "systemId": "1Ahjk",
+    "systemName": "geico-com",
+    "startDatetime": "2024-08-05T13:00:00Z",
+    "endDatetime": "2024-12-30T13:00:00Z",
+    "variances": [
+      {
+        "keyName": "green button",
+        "description": "make button green",
+        "splitAllocation": 50,
+        "status": "Active"
+      },
+      {
+        "keyName": "blue button",
+        "description": "make button blue",
+        "splitAllocation": 50,
+        "status": "Active"
+      }
+    ],
+    "description": "homepage-cta",
+    "owner": "John Doe",
+    "createdAt": "2022-05-05T13:00:00Z",
+    "lastModifiedBy": "John Doe",
+    "lastModifiedAt": "2024-03-05T13:00:00Z",
+    "tagName": "NAME OF TAG",
+    "status": "Active"
+  }
+]

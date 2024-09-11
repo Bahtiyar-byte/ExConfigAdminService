@@ -1,0 +1,34 @@
+.top-padding {
+    padding-top: 6rem;
+}
+
+.row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ui-datepicker-trigger {
+    width: 20% !important;
+}
+
+.date-datepicker {
+    width: 80% !important;
+}
+
+gds-input-field#variant-name-id::part(inner-input) {
+    width: 100%;
+}
+gds-input-field#control-name-id::part(inner-input) {
+    width: 100%;
+}
+
+.description{
+    font-size: var(--label-descriptive-copy-font-size);
+    margin-bottom: var(--label-descriptive-copy-margin-bottom);
+}
+
+.time-select-box .form-field--error select {
+    border-radius: 0.8rem;
+    border: 0.1rem solid #E00B20;
+}
+
