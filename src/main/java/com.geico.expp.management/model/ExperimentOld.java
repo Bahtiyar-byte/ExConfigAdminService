@@ -5,7 +5,7 @@ import org.springframework.data.cassandra.core.mapping.Table;
 import java.util.UUID;
 
 @Table("experiments")
-public class Experiment { //Model Class - Java Class that represents tables from DB. Intermidiary between DB and the project.
+public class Experiment { 
     @PrimaryKey
     private UUID id;
     private String name;

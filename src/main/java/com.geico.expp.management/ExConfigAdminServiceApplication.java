@@ -1,4 +1,4 @@
-package exconfigadminservice; //Namespace - Main, Controllers, Models in separate packages
+package exconfigadminservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

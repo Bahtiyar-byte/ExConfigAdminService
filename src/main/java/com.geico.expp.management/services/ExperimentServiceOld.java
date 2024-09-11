@@ -10,7 +10,7 @@ import java.util.UUID;
 import java.util.Optional;
 
 @Service
-public class ExperimentService { //Business Logic Layer
+public class ExperimentService { 
     @Autowired
     private ExperimentRepository experimentRepository;
 

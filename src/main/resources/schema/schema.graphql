@@ -1,0 +1,158 @@
+scalar DateTime
+directive @nullIfEmpty on FIELD_DEFINITION
+directive @nullIfEpoch on FIELD_DEFINITION
+
+type Query {
+    getAllExperiments: [Experiment!]!
+    getExperiment(key: ExperimentKeyInput!): Experiment
+    getExperimentsBySystemId(systemId: String!): [Experiment!]!
+}
+
+type Mutation {
+    createExperiment(input: ExperimentInput!): Experiment!
+}
+
+# ExperimentKey to represent the composite key
+type ExperimentKey {
+    id: ID!
+    systemId: String!
+}
+
+# Experiment type to represent the experiment entity
+type Experiment {
+    key: ExperimentKey!
+    experimentName: String!
+    description: String
+    status: String!
+    variances: [Variance!]
+    owner: String!
+    createdAt: DateTime
+    lastModifiedBy: String!
+    lastModifiedAt: DateTime
+    tagName: String!
+    systemName: String!
+    startDatetime: DateTime
+    endDatetime: DateTime
+}
+
+# Variance type to represent a variance in an experiment
+type Variance {
+    keyName: String
+    description: String
+    splitAllocation: Int
+    status: String
+}
+
+# Input types for creating or querying experiments
+input ExperimentKeyInput {
+    id: ID!
+    systemId: String!
+}
+
+input ExperimentInput {
+    key: ExperimentKeyInput!
+    experimentName: String!
+    description: String
+    variances: [VarianceInput!]
+    owner: String!
+    tagName: String!
+    systemName: String!
+    startDatetime: DateTime
+    endDatetime: DateTime
+}
+
+input VarianceInput {
+    keyName: String
+    description: String
+    splitAllocation: Int
+    status: String
+}
+
+#type Query {
+#    experimentByKey(id: ID!, systemId: String!): Experiment
+#}
+#
+#type Mutation {
+#    createExperiment(input: ExperimentInput!): Experiment
+#}
+#
+#type Experiment {
+#    id: ID!
+#    systemId: String!
+#    experimentName: String!
+#    description: String
+#    status: String
+#    variances: [Variance]
+#    owner: String
+#    createdAt: DateTime
+#    lastModifiedBy: String
+#    lastModifiedAt: DateTime
+#    tagName: String
+#    systemName: String
+#    startDatetime: DateTime
+#    endDatetime: DateTime
+#}
+#
+#type Variance {
+#    keyName: String
+#    description: String
+#    splitAllocation: Int
+#    status: String
+#}
+#
+#input ExperimentInput {
+#    systemId: String!
+#    experimentName: String!
+#    description: String
+#    status: String
+#    variances: [VarianceInput]
+#    owner: String
+#    tagName: String
+#    systemName: String
+#    startDatetime: DateTime
+#    endDatetime: DateTime
+#}
+#
+#input VarianceInput {
+#    keyName: String!
+#    description: String
+#    splitAllocation: Int
+#    status: String
+#}
+#
+#scalar DateTime
+
+
+#type Query {
+#    experiments: [Experiment!]!
+#}
+#
+#type Mutation {
+#    createExperiment(name: String!, author: String!): Experiment!
+#}
+#
+#type Experiment {
+#    id: ID!
+#    name: String!
+#    createdAt: DateTime!
+#    updatedAt: DateTime!
+#    author: String! @nullIfEmpty
+#    expiresAt: DateTime @nullIfEpoch
+#    publicationStatus: PublicationStatus!
+#    lastPublishedAt: DateTime @nullIfEpoch
+#    description: String @nullIfEmpty
+#}
+#
+#
+#enum PublicationStatus {
+#    UNKNOWN
+#    UNSPECIFIED
+#    ERROR
+#    DRAFT
+#    PUBLISHED
+#    ARCHIVED
+#}
+#
+#scalar DateTime
+#directive @nullIfEmpty on FIELD_DEFINITION
+#directive @nullIfEpoch on FIELD_DEFINITION
