@@ -1,98 +1,92 @@
+type Query {
+    experiments: [Experiment!]!
+}
+
+type Mutation {
+    createExperiment(name: String!, author: String!): Experiment!
+}
+
+type Experiment {
+    id: ID!
+    name: String!
+    owner: String!
+    status: ExperimentStatus!
+    systemName: String!
+    systemId: String!
+    startsAt: DateTime!
+    endsAt: DateTime!
+    createdAt: DateTime!
+    lastUpdatedAt: DateTime @nullIfEpoch
+    lastUpdatedBy: DateTime @nullIfEpoch
+    description: String @nullIfEmpty
+}
+
+type Variance {
+    keyName: String!,
+    splitAllocation: Int!,
+    status: VarianceStatus!,
+    description: String @nullIfEmpty
+}
+
+enum VarianceStatus {
+    UNSPECIFIED
+    ACTIVE
+    INACTIVE
+}
+
+
+enum ExperimentStatus {
+    UNSPECIFIED
+    ACTIVE
+    DRAFT
+    PUBLISHED
+    ARCHIVED
+}
+
 scalar DateTime
 directive @nullIfEmpty on FIELD_DEFINITION
 directive @nullIfEpoch on FIELD_DEFINITION
 
-type Query {
-    getAllExperiments: [Experiment!]!
-    getExperiment(key: ExperimentKeyInput!): Experiment
-    getExperimentsBySystemId(systemId: String!): [Experiment!]!
-}
 
-type Mutation {
-    createExperiment(input: ExperimentInput!): Experiment!
-}
 
-# ExperimentKey to represent the composite key
-type ExperimentKey {
-    id: ID!
-    systemId: String!
-}
-
-# Experiment type to represent the experiment entity
-type Experiment {
-    key: ExperimentKey!
-    experimentName: String!
-    description: String
-    status: String!
-    variances: [Variance!]
-    owner: String!
-    createdAt: DateTime
-    lastModifiedBy: String!
-    lastModifiedAt: DateTime
-    tagName: String!
-    systemName: String!
-    startDatetime: DateTime
-    endDatetime: DateTime
-}
-
-# Variance type to represent a variance in an experiment
-type Variance {
-    keyName: String
-    description: String
-    splitAllocation: Int
-    status: String
-}
-
-# Input types for creating or querying experiments
-input ExperimentKeyInput {
-    id: ID!
-    systemId: String!
-}
-
-input ExperimentInput {
-    key: ExperimentKeyInput!
-    experimentName: String!
-    description: String
-    variances: [VarianceInput!]
-    owner: String!
-    tagName: String!
-    systemName: String!
-    startDatetime: DateTime
-    endDatetime: DateTime
-}
-
-input VarianceInput {
-    keyName: String
-    description: String
-    splitAllocation: Int
-    status: String
-}
-
+#scalar DateTime
+#directive @nullIfEmpty on FIELD_DEFINITION
+#directive @nullIfEpoch on FIELD_DEFINITION
+#
 #type Query {
-#    experimentByKey(id: ID!, systemId: String!): Experiment
+#    getAllExperiments: [Experiment!]!
+#    getExperiment(key: ExperimentKeyInput!): Experiment
+#    getExperimentsBySystemId(systemId: String!): [Experiment!]!
 #}
 #
 #type Mutation {
-#    createExperiment(input: ExperimentInput!): Experiment
+#    createExperiment(input: ExperimentInput!): Experiment!
 #}
 #
-#type Experiment {
+## ExperimentKey to represent the composite key
+#type ExperimentKey {
 #    id: ID!
 #    systemId: String!
+#}
+#
+## Experiment type to represent the experiment entity
+#type Experiment {
+#    key: ExperimentKey!
 #    experimentName: String!
 #    description: String
-#    status: String
-#    variances: [Variance]
-#    owner: String
+#    status: String!
+#    variances: [Variance!]
+#    owner: String!
 #    createdAt: DateTime
-#    lastModifiedBy: String
+#    lastModifiedBy: String!
 #    lastModifiedAt: DateTime
-#    tagName: String
-#    systemName: String
+#    tagName: String!
+#    systemName: String!
 #    startDatetime: DateTime
 #    endDatetime: DateTime
 #}
 #
+## Variance type to represent a variance in an experiment
 #type Variance {
 #    keyName: String
 #    description: String
@@ -100,36 +94,31 @@ input VarianceInput {
 #    status: String
 #}
 #
-#input ExperimentInput {
+## Input types for creating or querying experiments
+#input ExperimentKeyInput {
+#    id: ID!
 #    systemId: String!
+#}
+#
+#input ExperimentInput {
+#    key: ExperimentKeyInput!
 #    experimentName: String!
 #    description: String
-#    status: String
-#    variances: [VarianceInput]
-#    owner: String
-#    tagName: String
-#    systemName: String
+#    variances: [VarianceInput!]
+#    owner: String!
+#    tagName: String!
+#    systemName: String!
 #    startDatetime: DateTime
 #    endDatetime: DateTime
 #}
 #
 #input VarianceInput {
-#    keyName: String!
+#    keyName: String
 #    description: String
 #    splitAllocation: Int
 #    status: String
 #}
-#
-#scalar DateTime
 
-
-#type Query {
-#    experiments: [Experiment!]!
-#}
-#
-#type Mutation {
-#    createExperiment(name: String!, author: String!): Experiment!
-#}
 #
 #type Experiment {
 #    id: ID!
